@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005628",
+  "source": "openneuro",
+  "source_id": "ds005628",
+  "title": "Dataset of Visual and Audiovisual Stimuli in Virtual Reality from the Edzna Archaeological Site",
+  "authors": {
+    "Juan Pablo Rosado-Aíza": {},
+    "Fernando José Domínguez-Morales": {},
+    "Tania Yareni Pech-Canul": {},
+    "Paola Guadalupe Vázquez-Rodríguez": {},
+    "Gustavo Navas-Reascos": {},
+    "Luz María Alonso-Valerdi": {},
+    "David I. Ibarra Zarate": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005628.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
