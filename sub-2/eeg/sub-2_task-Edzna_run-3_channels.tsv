@@ -1,9 +1,9 @@
 name	type	units
-Fz	n/a	n/a
-P3	n/a	n/a
-Cz	n/a	n/a
-P4	n/a	n/a
-Pz	n/a	n/a
-PO7	n/a	n/a
-Oz	n/a	n/a
-PO8	n/a	n/a
+Fz	EEG	uV
+P3	EEG	uV
+Cz	EEG	uV
+P4	EEG	uV
+Pz	EEG	uV
+PO7	EEG	uV
+Oz	EEG	uV
+PO8	EEG	uV

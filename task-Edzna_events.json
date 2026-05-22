@@ -1,1 +1,9 @@
-[]
+{
+  "Description": "Event table for the Edzna VR EEG task. Rows are EEGLAB boundary annotations carried over from the recording's .set file, marking discontinuities between the three concatenated experiment phases (baseline, visual stimulus, audiovisual stimulus) within each continuous file.",
+  "sample": {
+    "Description": "Sample index of the event within the recording (zero-based; matches the index in the paired .set file)."
+  },
+  "value": {
+    "Description": "Raw event marker carried from the EEGLAB .set file. The value 'boundary' marks a discontinuity inserted by EEGLAB at the join between segments."
+  }
+}
