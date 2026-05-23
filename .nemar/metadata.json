@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005628",
-  "source": "openneuro",
-  "source_id": "ds005628",
+  "pipeline_stage": "validated",
   "title": "Dataset of Visual and Audiovisual Stimuli in Virtual Reality from the Edzna Archaeological Site",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Juan Pablo Rosado-Aíza": {},
     "Fernando José Domínguez-Morales": {},
@@ -13,14 +13,61 @@
     "Luz María Alonso-Valerdi": {},
     "David I. Ibarra Zarate": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005628.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005628",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005628",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "664.2 MB (308 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "description": "This dataset comprises neurophysiological recordings collected during visual and audiovisual stimulation in a virtual reality environment recreating the Edzna archaeological site. The study captures brain activity responses to multimodal sensory inputs in an immersive archaeological context, providing a resource for investigating neural processing of integrated visual and auditory information in virtual environments.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "audiovisual stimulation"
+    },
+    {
+      "term": "multimodal integration"
+    },
+    {
+      "term": "sensory processing"
+    },
+    {
+      "term": "Edzna archaeological site"
+    },
+    {
+      "term": "immersive virtual environment"
+    }
+  ],
+  "source_hash": "b4c97e07363213beb8e23c554aa2ffa789dd73fb30a2bf8db9815fd4aa1fd52b"
 }
