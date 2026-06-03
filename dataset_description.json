@@ -1,28 +1,23 @@
 {
   "Authors": [
-    "Juan Pablo Rosado-Aíza",
-    "Fernando José Domínguez-Morales",
+    "Juan Pablo Rosado-A\u00edza",
+    "Fernando Jos\u00e9 Dom\u00ednguez-Morales",
     "Tania Yareni Pech-Canul",
-    "Paola Guadalupe Vázquez-Rodríguez",
+    "Paola Guadalupe V\u00e1zquez-Rodr\u00edguez",
     "Gustavo Navas-Reascos",
-    "Luz María Alonso-Valerdi",
+    "Luz Mar\u00eda Alonso-Valerdi",
     "David I. Ibarra Zarate"
   ],
   "Name": "Dataset of Visual and Audiovisual Stimuli in Virtual Reality from the Edzna Archaeological Site",
   "License": "CC0",
   "ReferencesAndLinks": [],
-  "BIDSVersion": "1.8.0",
+  "BIDSVersion": "1.11.1",
   "HEDVersion": "8.1.0",
   "DatasetType": "raw",
   "GeneratedBy": [
     {
       "Name": "bids-matlab-tools",
       "Version": "9.1"
-    },
-    {
-      "Name": "nemar-cli",
-      "Version": "0.8.8",
-      "CodeURL": "https://github.com/nemar-org/nemar-cli"
     }
   ],
   "DatasetDOI": "10.82901/nemar.on005628",
