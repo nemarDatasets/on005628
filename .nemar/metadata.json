@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of Visual and Audiovisual Stimuli in Virtual Reality from the Edzna Archaeological Site",
+  "description": "This dataset contains EEG recordings collected while participants viewed visual and audiovisual stimuli in virtual reality depicting the Edzna Archaeological Site. It is intended to support research on how immersive, multisensory cultural-heritage environments shape brain activity. The data are organized in BIDS format with HED annotations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,6 +14,26 @@
     "Luz María Alonso-Valerdi": {},
     "David I. Ibarra Zarate": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "audiovisual stimuli"
+    },
+    {
+      "term": "visual stimuli"
+    },
+    {
+      "term": "archaeological site"
+    },
+    {
+      "term": "cultural heritage"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005628.v1.0.0",
@@ -25,17 +46,17 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005628",
+      "identifier": "https://nemar.org/dataset/on005628",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "664.2 MB (308 files)"
+    "633 MB (308 files)"
   ],
   "formats": [
     ".json",
@@ -44,30 +65,6 @@
     ".tsv",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This dataset comprises neurophysiological recordings collected during visual and audiovisual stimulation in a virtual reality environment recreating the Edzna archaeological site. The study captures brain activity responses to multimodal sensory inputs in an immersive archaeological context, providing a resource for investigating neural processing of integrated visual and auditory information in virtual environments.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "virtual reality"
-    },
-    {
-      "term": "audiovisual stimulation"
-    },
-    {
-      "term": "multimodal integration"
-    },
-    {
-      "term": "sensory processing"
-    },
-    {
-      "term": "Edzna archaeological site"
-    },
-    {
-      "term": "immersive virtual environment"
-    }
   ],
   "source_hash": "b4c97e07363213beb8e23c554aa2ffa789dd73fb30a2bf8db9815fd4aa1fd52b"
 }
