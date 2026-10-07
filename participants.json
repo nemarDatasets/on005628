@@ -1,8 +1,8 @@
 {
   "participant_id": {
-    "Description": "Unique participant label"
+    "Description": "Unique participant label. Subjects ending in `p` (e.g. sub-1p) hold the preprocessed counterparts of the raw recordings under the same numeric id (e.g. sub-1)."
   },
   "Group": {
-    "Description": "Participant group label"
+    "Description": "Numeric group label assigned in the source release. The dataset documents this column only as `Participant group label`; the per-group semantics are not described further in the source. See the dataset README and source publication for additional context."
   }
 }

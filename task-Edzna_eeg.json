@@ -1,0 +1,26 @@
+{
+  "TaskName": "Edzna",
+  "TaskDescription": "Participants experienced a virtual reality exhibit of the Edzna archaeological site (Mexico) inside a VR headset with headphones. Each recording is a single continuous EEG file containing three concatenated phases: a resting baseline, a visual-only stimulus, and an audiovisual stimulus.",
+  "Manufacturer": "g.tec medical engineering",
+  "ManufacturersModelName": "Unicorn Hybrid Black",
+  "CapManufacturer": "G-Tech",
+  "CapManufacturersModelName": "Unicorn Hybrid Black",
+  "InstitutionName": "Tecnologico de Monterrey",
+  "InstitutionAddress": "Monterrey, Mexico",
+  "PowerLineFrequency": 60,
+  "SamplingFrequency": 250,
+  "EEGChannelCount": 8,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MISCChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "EEGPlacementScheme": "10-20",
+  "EEGReference": "common",
+  "SoftwareFilters": {
+    "FilterDescription": {
+      "Description": "4th order Bandpass (1-50Hz) OpenVibe"
+    }
+  },
+  "RecordingType": "continuous"
+}
