@@ -1,2 +1,9 @@
+1.0.1 2026-10-14
+  - Added stimuli/stimuli.tsv and stimuli.json (the two VR-tour videos of this README: YouTube ids, duration, fps, size); no media added.
+  - task-Edzna_events.json: [] replaced by {} (bids-validator JSON_NOT_AN_OBJECT error).
+  - README: section 'Stimuli' (video properties, no sync events in runs 2/3).
+  - dataset_description.json: GeneratedBy entry for this enrichment.
+  - dataset_description.json: Version 1.0.0 -> 1.0.1.
+
 1.0.0 2024-11-14
   - Initial release of the dataset.

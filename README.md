@@ -63,3 +63,14 @@ https://youtu.be/FBWbtSFwVuo
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 Visual video:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 https://youtu.be/aLzzl0ygBnc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+## Stimuli (added 2026-10-08, metadata only)
+
+`stimuli/stimuli.tsv` lists the two videos named above (third-party YouTube uploads, not included): the audiovisual
+(`FBWbtSFwVuo`) and visual (`aLzzl0ygBnc`) versions of the VR tour, both 370.06 s, 25 fps, 1920 x 1080 in their current
+upload (uploader Gustavo Sebastián Navas Reascos, 2024-11-12). The video runs (run-2 and run-3; condition order per
+participant in `metadata.xlsx`, columns Run1-Run3) last about 372 s and carry no synchronisation events, so the video
+onset inside a run is known only to about 2 s.
+
+Also changed: `task-Edzna_events.json` contained `[]` (a JSON array), which bids-validator 3.0.2 rejects
+(`JSON_NOT_AN_OBJECT`); it is now an empty object `{}`. There are no events files.

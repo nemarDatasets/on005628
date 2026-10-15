@@ -1,0 +1,3 @@
+stim_id	condition	source_title	source_id	source_url	rights	source_duration_s	fps	width	height	verification	confidence
+edzna_audiovisual	audiovisual	Audiovisual final video (Gustavo Sebastián Navas Reascos, 2024-11-12)	YouTube FBWbtSFwVuo	https://youtu.be/FBWbtSFwVuo	third-party (standard YouTube licence); not included	370.06	25	1920	1080	YouTube id from this README; duration/fps/size of the current upload (ffprobe)	likely
+edzna_visual	visual	Visual final video (Gustavo Sebastián Navas Reascos, 2024-11-12)	YouTube aLzzl0ygBnc	https://youtu.be/aLzzl0ygBnc	third-party (standard YouTube licence); not included	370.06	25	1920	1080	YouTube id from this README; duration/fps/size of the current upload (ffprobe)	likely

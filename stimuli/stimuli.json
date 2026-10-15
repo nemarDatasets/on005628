@@ -1,0 +1,45 @@
+{
+  "stim_id": {
+    "Description": "Stimulus identifier; the value used to join events (see README, section Stimuli)."
+  },
+  "condition": {
+    "Description": "Experimental condition (visual-only or audiovisual VR tour); runs 2 and 3, order per participant in metadata.xlsx (columns Run1-Run3)."
+  },
+  "source_title": {
+    "Description": "Title of the source work or upload."
+  },
+  "source_id": {
+    "Description": "Identifier of the source (YouTube id, archive or deposit identifier, clip name)."
+  },
+  "source_url": {
+    "Description": "Where the source can be obtained (official page, upload or deposit). Not a copy made by us."
+  },
+  "rights": {
+    "Description": "Rights note. 'third-party; not included': the video belongs to its rights holder and is not part of this dataset."
+  },
+  "source_duration_s": {
+    "Description": "Duration of the source upload or file named in source_id.",
+    "Units": "s"
+  },
+  "fps": {
+    "Description": "Frame rate of the current YouTube upload (ffprobe).",
+    "Units": "Hz"
+  },
+  "width": {
+    "Description": "Frame width of the current YouTube upload.",
+    "Units": "pixel"
+  },
+  "height": {
+    "Description": "Frame height of the current YouTube upload.",
+    "Units": "pixel"
+  },
+  "verification": {
+    "Description": "How identity and timing were checked."
+  },
+  "confidence": {
+    "Description": "Confidence in identity and timing.",
+    "Levels": {
+      "likely": "identity from the dataset README; onset inside the run not verifiable"
+    }
+  }
+}
