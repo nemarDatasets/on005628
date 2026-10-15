@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of Visual and Audiovisual Stimuli in Virtual Reality from the Edzna Archaeological Site",
-  "description": "This dataset contains EEG recordings collected while participants viewed visual and audiovisual stimuli in virtual reality depicting the Edzna Archaeological Site. It is intended to support research on how immersive, multisensory cultural-heritage environments shape brain activity. The data are organized in BIDS format with HED annotations.",
+  "description": "This dataset contains EEG recordings collected while participants experienced visual and audiovisual stimuli in virtual reality, depicting the Edzna Archaeological Site. It supports research on neural responses to immersive virtual reality presentations of cultural heritage environments. The data are organized according to the BIDS standard with HED annotations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -66,5 +66,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "b4c97e07363213beb8e23c554aa2ffa789dd73fb30a2bf8db9815fd4aa1fd52b"
+  "source_hash": "fa296e771c3ae0cc23e760e06bfe82533a4a5fa7e8e1f0225649cf460a00a358"
 }
